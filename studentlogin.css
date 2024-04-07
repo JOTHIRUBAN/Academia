@@ -1,0 +1,107 @@
+.info1{
+    margin: 50px;
+}
+.info1 button{
+    background-color:#1F6E8C;
+    border-radius: 10px;
+    padding:7px;
+    border-color:#1F6E8C ;
+    font-family: serif;
+    font-size: large;
+    color: azure;
+}
+.info1 p{
+    font-family: serif;
+    font-size: large;
+}
+.head{
+    background-color:#1F6E8C;
+    padding:10px;
+    text-align: center;
+    margin-top: 0px;
+    height:115px;
+    
+}
+.head h1{
+  margin-top: 35px;
+  color: azure;
+}
+
+.head img{
+    float:left;
+    width:120px;
+}
+
+body{
+    margin: 0px;
+    
+    font-family: serif;
+
+}
+.infohead{
+    margin:50px;
+
+}
+#semlabel{
+    margin:50px;
+    font-family: serif;
+}
+.sem{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #1F6E8C;
+    font-weight: bold;
+    border-color: #1F6E8C;
+    color: azure;
+}
+.subbut{
+    background-color:#1F6E8C;
+    border-radius: 10px;
+    padding:7px;
+    margin-left: 30px;
+    border-color:#1F6E8C ;
+    font-family: serif;
+    font-size: large;
+    color: azure
+}
+#deptlabel{
+    margin:50px;
+    font-family: serif;
+}
+#dept{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #1F6E8C;
+    font-weight: bold;
+    border-color:#1F6E8C ;
+    color: azure;
+}
+#syllabus:empty{
+    display: none;  
+
+}
+#subbit:empty{
+    display: none;
+}
+#syllabus{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #1F6E8C;
+    font-weight: bold;
+    border-color: #1F6E8C;
+    margin: 50px;
+    color: azure
+}
+#syll{
+    margin: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+#cgpbut{
+    background-color: #1F6E8C;
+    border-radius: 10px;
+    padding: 7px;
+    border-color: #1F6E8C;
+    font-size: large;
+    font-family: serif;
+}

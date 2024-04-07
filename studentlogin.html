@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANNAUNIV-Student LogIn</title>
+    <link rel="icon" type="image/x-icon" href="annalogo.jpg">
+    <link rel="stylesheet" href="studentlogin.css">
+
+    <style>
+       #logot{
+        background-color:#1F6E8C;
+    border-radius: 10px;
+    padding:7px;
+    border-color:#1F6E8C ;
+    font-family: serif;
+    font-size: large;
+    float: right;
+       }
+    </style>
+</head>
+
+
+<body style="background-color: #F0F6F7;
+color: #0E2954;" >
+    <div class="head">
+        <a href="home.html"><img src="annapic3.png"></a>
+          <h1>INFORMATION SCIENCE AND TECHNOLOGY</h1>
+        </div><br>
+        <button id="logot"><a href="home.html" style="text-decoration:none;color:azure">LOG OUT</a></button>
+ <h1 class="infohead" style="color: #1F6E8C; ;">IMPORTANT ANNOUNCEMENTS</h1>
+        <div class="info1">
+    <form action="studentlogin.php" method="post">
+        <button type="submit" >click here</button>
+        <p style="color: #1F6E8C; ">To find new and updated information as well as the latest announcements.</p><br>
+        
+
+    </form>
+</div>
+<button id="cgpbut" style="margin:50px;"><a href="cgpa\cgpa.php" style="text-decoration:none;color:white;">Calculate Your GPA</a></button>
+    <h2 class="infohead" style="color: #1F6E8C;">KNOW YOUR SYLLABUS</h2>
+    <label for="dept" id="deptlabel" style="color: #1F6E8C; ">ENTER YOUR DEPARTMENT:</label>
+    <select id="dept" name="dept">
+        <option>INFORMATION TECHNOLOGY</option>
+    </select><br><br>
+        <label for="sem" id="semlabel" style="color: #1F6E8C;">ENTER YOUR CURRENT SEMESTER:</label>
+        <select id="sem" name="sem" class="sem">
+        <option>SEMESTER-1</option>
+        <option>SEMESTER-2</option>
+        <option>SEMESTER-3</option>
+        <option>SEMESTER-4</option>
+        <option>SEMESTER-5</option>
+        <option>SEMESTER-6</option>
+        <option>SEMESTER-7</option>
+        <option>SEMESTER-8</option>
+    </select>
+    <button type="submit" class="subbut"id="subbit" onclick="syllabus()">Submit</button><br>
+    <select id="syllabus"></select>
+    <p id="subject" onclick="syllabi()"></p>
+    <p id="subject1" onclick="syllabi1()"></p>
+    <p id="subject2" onclick="syllabi2()"></p>
+    <p id="subject3" onclick="syllabi3()"></p>
+    <p id="subject4" onclick="syllabi4()"></p>
+    <p id="subject5" onclick="syllabi5()"></p>
+    <p id="subject6" onclick="syllabi6()"></p>
+    <p id="subject7" onclick="syllabi7()"></p>
+    <p id="syll"></p>
+    <p id="cgp"></p>
+    
+<script src="studentlogin.js"></script>
+<script src="studentlogin1.js"></script>
+<script src="studentlogin2.js"></script>
+<script src="studentlogin3.js"></script>
+<script src="studentlogin4.js"></script>
+<script src="studentlogin5.js"></script>
+<script src="studentlogin6.js"></script>
+<script src="studentlogin7.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANNAUNIV-Staff LogIn</title>
+    <link rel="icon" type="image/x-icon" href="annalogo.jpg">
+    <link rel="stylesheet" href="stafflogin.css">
+    <style>
+        #logot{
+         background-color:#1F6E8C;
+     border-radius: 10px;
+     padding:7px;
+     border-color:#1F6E8C ;
+     font-family: serif;
+     font-size: large;
+     float: right;
+        }
+     </style>
+</head>
+<body style="color: azure;">
+    <div class="head">
+        <a href="home.html"><img src="annapic3.png"></a>
+          <h1>INFORMATION SCIENCE AND TECHNOLOGY</h1>
+        </div><br>
+        <button id="logot"><a href="home.html" style="text-decoration:none;color:azure">LOG OUT</a></button>
+    
+    <form action="stafflogin.php" method="post">
+        <input type="text" id="name" name="name" placeholder="Name" autocomplete="off"><br><br>
+    
+        <input type="text" id="subj" name="subj" placeholder="Subject"><br><br>
+    <textarea name="info" id="info" placeholder="Write Your Important Announcements Here"></textarea><br>
+    <button type="submit" onclick="del()">Submit</button>
+    </form>
+</body>
+</html>
